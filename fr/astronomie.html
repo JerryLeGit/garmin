@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le ciel, comment ça marche</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header><a class="site" href="../fr/index.html">Jerry Lab · Garmin</a><a class="lang" href="../en/astronomy.html">English</a></header>
+<main>
+<h1>Le ciel, comment ça marche</h1>
+<p>Pour les curieux : ce que montrent les cadrans et comment c'est calculé.</p>
+<h2>Le soleil</h2>
+<ul>
+<li><strong>Hauteur</strong> : angle du soleil au-dessus de l'horizon (0° à l'horizon, négatif en dessous).</li>
+<li><strong>Azimut</strong> : sa direction. Il ne se lève plein est qu'aux équinoxes : plus au nord-est en été, au sud-est en hiver.</li>
+<li><strong>Lever, coucher</strong> : le bord du soleil touche l'horizon. L'air courbe la lumière : on le voit un peu avant qu'il soit vraiment levé.</li>
+<li><strong>Midi solaire</strong> : le soleil au plus haut. Rarement à 12 h pile (fuseau, heure d'été). <strong>Minuit solaire</strong> : au plus bas.</li>
+<li><strong>Heure dorée</strong> : soleil entre 0 et 6° au-dessus de l'horizon, lumière chaude et rasante.</li>
+</ul>
+<h2>Les crépuscules</h2>
+<p>Après le coucher, la nuit vient par étapes, selon la hauteur du soleil sous l'horizon :</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Soleil</th>
+<th>Ciel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Civil (heure bleue)</td>
+<td>0 à −6°</td>
+<td>encore clair</td>
+</tr>
+<tr>
+<td>Nautique</td>
+<td>−6 à −12°</td>
+<td>premières étoiles</td>
+</tr>
+<tr>
+<td>Astronomique</td>
+<td>−12 à −18°</td>
+<td>presque noir</td>
+</tr>
+<tr>
+<td>Nuit noire</td>
+<td>sous −18°</td>
+<td>noir</td>
+</tr>
+</tbody>
+</table>
+<p>Le matin, dans l'autre sens. Autour du solstice d'été, à Paris, il n'y a pas de nuit noire. Au-delà du cercle polaire : soleil qui ne se couche pas (jour polaire) ou ne se lève pas (nuit polaire).</p>
+<h2>La lune</h2>
+<ul>
+<li><strong>Phases</strong> : un cycle de 29,5 jours. Nouvelle lune (côté soleil, invisible), croissant, premier quartier, gibbeuse, pleine lune (à l'opposé du soleil), puis décroissante. Le pourcentage indique la part éclairée.</li>
+<li><strong>Lever</strong> : environ 50 minutes plus tard chaque jour. La pleine lune se lève quand le soleil se couche.</li>
+<li><strong>Hauteur</strong> : la pleine lune est haute en hiver, basse en été, à l'inverse du soleil.</li>
+<li><strong>Hémisphère sud</strong> : la phase est vue à l'envers.</li>
+</ul>
+<h2>Comment c'est calculé</h2>
+<ul>
+<li><strong>Sur la montre</strong>, à partir de l'heure et de votre position. Rien n'est envoyé.</li>
+<li><strong>Formules</strong> de l'astronome Jean Meeus (<em>Astronomical Algorithms</em>), qui décrivent la course apparente du soleil et de la lune.</li>
+<li><strong>Une fois par jour</strong> (et au changement de position ou de fuseau), puis suivi toutes les deux minutes par interpolation : sobre en batterie.</li>
+<li><strong>Vérifié</strong> sur 354 journées (de Quito à Tromsø) contre les éphémérides de la NASA-JPL et de l'USNO :</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Précision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lever, coucher du soleil, crépuscules</td>
+<td>± 1 min</td>
+</tr>
+<tr>
+<td>Lever, coucher de la lune</td>
+<td>± 5 min</td>
+</tr>
+<tr>
+<td>Hauteur, azimut</td>
+<td>± 0,1°</td>
+</tr>
+<tr>
+<td>Part éclairée de la lune</td>
+<td>± 1 %</td>
+</tr>
+<tr>
+<td>Pleine, nouvelle lune</td>
+<td>± 15 min</td>
+</tr>
+</tbody>
+</table>
+<p>Près des pôles, quand le soleil frôle l'horizon, les heures sont moins précises.</p>
+</main>
+<footer>Contact : <a href="mailto:jerrylab.error316@passmail.net">jerrylab.error316@passmail.net</a> · <a href="https://buymeacoffee.com/jerrylab">Offrir un café</a><br>Chiffres : police Barlow (SIL Open Font License). Garmin, Connect IQ et Body Battery sont des marques de Garmin Ltd. ; ce site n'est pas affilié à Garmin.</footer>
+</body>
+</html>

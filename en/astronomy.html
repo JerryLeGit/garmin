@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The sky, explained</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header><a class="site" href="../en/index.html">Jerry Lab · Garmin</a><a class="lang" href="../fr/astronomie.html">Français</a></header>
+<main>
+<h1>The sky, explained</h1>
+<p>For the curious: what the watch faces show and how it is computed.</p>
+<h2>The sun</h2>
+<ul>
+<li><strong>Height</strong>: angle of the sun above the horizon (0° at the horizon, negative below).</li>
+<li><strong>Azimuth</strong>: its direction. It rises due east only at the equinoxes: further north-east in summer, south-east in winter.</li>
+<li><strong>Sunrise, sunset</strong>: the edge of the sun touches the horizon. The air bends light, so you see it slightly before it is really up.</li>
+<li><strong>Solar noon</strong>: the sun at its highest. Rarely at 12:00 exactly (time zone, daylight saving). <strong>Solar midnight</strong>: at its lowest.</li>
+<li><strong>Golden hour</strong>: sun between 0 and 6° above the horizon, warm low light.</li>
+</ul>
+<h2>Twilights</h2>
+<p>After sunset, night comes in steps, depending on how far the sun is below the horizon:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Sun</th>
+<th>Sky</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Civil (blue hour)</td>
+<td>0 to −6°</td>
+<td>still light</td>
+</tr>
+<tr>
+<td>Nautical</td>
+<td>−6 to −12°</td>
+<td>first stars</td>
+</tr>
+<tr>
+<td>Astronomical</td>
+<td>−12 to −18°</td>
+<td>almost dark</td>
+</tr>
+<tr>
+<td>Full night</td>
+<td>below −18°</td>
+<td>dark</td>
+</tr>
+</tbody>
+</table>
+<p>The other way round in the morning. Around the June solstice, in Paris, there is no full night. Beyond the Arctic Circle: the sun never sets (polar day) or never rises (polar night).</p>
+<h2>The moon</h2>
+<ul>
+<li><strong>Phases</strong>: a 29.5-day cycle. New moon (on the sun's side, invisible), crescent, first quarter, gibbous, full moon (opposite the sun), then waning. The percentage is the lit part.</li>
+<li><strong>Moonrise</strong>: about 50 minutes later each day. The full moon rises as the sun sets.</li>
+<li><strong>Height</strong>: the full moon is high in winter, low in summer, the opposite of the sun.</li>
+<li><strong>Southern hemisphere</strong>: the phase is seen the other way round.</li>
+</ul>
+<h2>How it is computed</h2>
+<ul>
+<li><strong>On the watch</strong>, from the time and your location. Nothing is sent.</li>
+<li><strong>Formulas</strong> by astronomer Jean Meeus (<em>Astronomical Algorithms</em>), describing the apparent paths of the sun and moon.</li>
+<li><strong>Once a day</strong> (and when your location or time zone changes), then followed every two minutes by interpolation: easy on the battery.</li>
+<li><strong>Checked</strong> over 354 days (from Quito to Tromsø) against NASA-JPL and USNO ephemerides:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sunrise, sunset, twilights</td>
+<td>± 1 min</td>
+</tr>
+<tr>
+<td>Moonrise, moonset</td>
+<td>± 5 min</td>
+</tr>
+<tr>
+<td>Height, azimuth</td>
+<td>± 0.1°</td>
+</tr>
+<tr>
+<td>Lit part of the moon</td>
+<td>± 1%</td>
+</tr>
+<tr>
+<td>Full, new moon</td>
+<td>± 15 min</td>
+</tr>
+</tbody>
+</table>
+<p>Near the poles, when the sun skims the horizon, times are less precise.</p>
+</main>
+<footer>Contact: <a href="mailto:jerrylab.error316@passmail.net">jerrylab.error316@passmail.net</a> · <a href="https://buymeacoffee.com/jerrylab">Buy me a coffee</a><br>Digits: Barlow typeface (SIL Open Font License). Garmin, Connect IQ and Body Battery are trademarks of Garmin Ltd.; this site is not affiliated with Garmin.</footer>
+</body>
+</html>

@@ -7,52 +7,278 @@
 <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
-<header><a class="site" href="../../en/index.html">Jerry Lab · Garmin</a><a class="lang" href="../fr/index.html">Français</a><nav class="app"><a href="index.html" class=on>Overview</a><a href="reading-the-face.html">Reading the face</a><a href="settings.html">Settings</a><a href="watches.html">Watches</a><a href="faq.html">FAQ</a><a href="whats-new.html">What&#x27;s new</a></nav></header>
+<header><a class="site" href="../../en/index.html">Jerry Lab · Garmin</a><a class="lang" href="../fr/index.html">Français</a></header>
 <main>
 <h1>24h Astro</h1>
-<p><strong>Your day's sky, at a glance.</strong></p>
-<p>The ring covers the full 24 hours: midnight at the bottom, noon at the top. The sky is drawn live along it, computed for your location. The sun is where it really is, and so is the moon.</p>
-<p class="cta"><a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">See it on Connect IQ</a></p>
+<p>Your day's sky, at a glance. <a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">See it on Connect IQ</a></p>
+<p><a href="#what-you-see">What you see</a> · <a href="#data">Data</a> · <a href="#settings">Settings</a> · <a href="#watches">Watches</a></p>
+<h2 id="what-you-see">What you see</h2>
 
-<p><img class="hero" src="../img/heros-en.png" alt="24h Astro at golden hour"></p>
-<h2>The sky</h2>
-<ul>
-<li>Sunrise, sunset, solar noon and midnight, the three twilights: marked on the ring.</li>
-<li>A compass on the hour marks: where the sun rises, where it sets, where it is now (or the moon).</li>
-<li>Polar day and polar night included.</li>
-</ul>
-<h2>The Moon</h2>
-<ul>
-<li>Its arc from rise to set, its disc at the right phase.</li>
-<li>The countdown to the next full or new moon, and how much of it is lit.</li>
-</ul>
-<h2>Your data</h2>
-<ul>
-<li>Up to 4 gauges, as bars or rings: sport, Body Battery, recovery, steps, floors, intensity minutes, heart rate, stress.</li>
-<li>4 fields of your choice: date, moon, next sunrise or sunset, day length, battery, notifications and your daily data.</li>
-</ul>
-<h2>Your way</h2>
-<ul>
-<li>3 colour themes, 6 layouts, a central bar of your choice.</li>
-<li>Automatic location or entered by hand.</li>
-<li>English and French, km or miles as set on the watch.</li>
-</ul>
-<div class="gallery">
-<img src="../img/theme-classique-en.png" alt="Classic theme, at dusk">
-<img src="../img/theme-soleil-en.png" alt="Sun theme, two ring gauges">
-<img src="../img/theme-azur-en.png" alt="Azure theme, battery central bar">
-</div>
+<p><img class="schema" src="../img/schema-en.png" alt="The watch face, numbered markers"></p>
+<ol>
+<li>Midnight</li>
+<li>Noon</li>
+<li>Sunrise</li>
+<li>Sunset</li>
+<li>Full night</li>
+<li>The sun, now</li>
+<li>Moon arc</li>
+<li>Compass: sunrise direction</li>
+<li>Central bar: sun height</li>
+<li>Gauges</li>
+<li>Top field</li>
+<li>Date and moon line</li>
+<li>Bluetooth, location</li>
+<li>Notifications</li>
+</ol>
+<p><strong>The ring</strong> = 24 h: midnight at the bottom, noon at the top. The coloured part runs from sunrise to sunset; its colour follows the sky of the moment (dark at night, bright blue by day). At sunrise and sunset, a glow at the end of the arc; with the sun up, a halo around it. Large dots: sunrise, sunset, solar noon and midnight. Small dots: twilights and end of golden hour.</p>
+<p><strong>The moon</strong>: grey arc from moonrise to moonset; disc at its phase, over the top of the ring when it is up, along the bottom otherwise.</p>
+<p><strong>The compass</strong>: triangles on the hour marks, like a map (north at the top). White: sunrise and sunset directions. Orange: the sun now (white outline when it is down). Small triangle at the bottom: south.</p>
+<p><strong>The central bar</strong>: height of the sun; the white line is the horizon.</p>
+<p><strong>The moon line</strong>: <code>▲ 8d │ 47%</code> = full moon in 8 days, 47% lit; <code>▼</code> = towards new moon; <code>●</code> / <code>○</code> = full / new moon close, <code>+4h</code> = passed 4 h ago. Durations in hours under 48 h.</p>
+<p><strong>Status bar</strong>: <img alt="" src="../../img/icones/bluetooth.png" /> phone connected (dark grey: not connected) · <img alt="" src="../../img/icones/position-barree.png" /> no known location, computed for Paris (start a GPS activity or enter a location) · <img alt="" src="../../img/icones/prise.png" /> charging · <img alt="" src="../../img/icones/notifications.png" /> notifications.</p>
+<h2 id="data">Data</h2>
 
-<h2>Learn more</h2>
-<ul>
-<li><a href="reading-the-face.html">Reading the face</a>: the ring, the moon, the compass, the short notations.</li>
-<li><a href="settings.html">Settings</a></li>
-<li><a href="watches.html">Compatible watches</a></li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="whats-new.html">What's new</a></li>
-<li><a href="../../en/data.html">Watch data</a>: gauges and fields, shared by all watch faces.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="" src="../../img/icones/tous-sports.png" /></td>
+<td>Sport</td>
+<td>Distance, duration or sessions; week, month or year; goal you set.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/body-battery.png" /></td>
+<td>Body Battery</td>
+<td>Level; white mark = today's highest.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/recuperation.png" /></td>
+<td>Recovery</td>
+<td>Hours left; "Ok" = recovered.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/pas.png" /></td>
+<td>Steps</td>
+<td>Towards the watch's goal.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/etages.png" /></td>
+<td>Floors</td>
+<td>Towards the watch's goal.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/minutes-intensives.png" /></td>
+<td>Intensity minutes</td>
+<td>Week, towards the watch's goal.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/frequence-cardiaque.png" /></td>
+<td>Heart rate</td>
+<td>By zones; red in zone 5.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/stress.png" /></td>
+<td>Stress</td>
+<td>0 to 100; red from 75.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/calories.png" /></td>
+<td>Calories</td>
+<td>Today (field only).</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/batterie.png" /></td>
+<td>Battery</td>
+<td>% or battery life; red below threshold, green while charging.</td>
+</tr>
+</tbody>
+</table>
+<p>Green gauge: goal reached. Red: alert. Grey track only or "--": data unavailable. Some data depend on the watch model.</p>
+<h2 id="settings">Settings</h2>
+
+<p>In the Connect IQ or Garmin Connect app on your phone.</p>
+<h3>Main page</h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Choices</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Left column layout</strong></td>
+<td>4 bars, 3 bars, 1 ring + 2 bars, 2 bars, 2 rings, None</td>
+<td>4 bars</td>
+</tr>
+<tr>
+<td><strong>Central separator</strong></td>
+<td>Sun elevation, Sun and moon elevation, Moon elevation, Battery, Plain bar</td>
+<td>Sun elevation</td>
+</tr>
+<tr>
+<td><strong>Theme</strong></td>
+<td>Classic, Sun, Azure</td>
+<td>Classic</td>
+</tr>
+<tr>
+<td><strong>Sky gradients</strong></td>
+<td>Dithered, Flat steps</td>
+<td>Dithered</td>
+</tr>
+<tr>
+<td><strong>Moon on the 24h dial (arc and disc)</strong></td>
+<td>Yes / No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Compass on the hour marks (azimuths)</strong></td>
+<td>None, Sun, Moon</td>
+<td>Sun</td>
+</tr>
+<tr>
+<td><strong>Manual position (instead of GPS)</strong></td>
+<td>Yes / No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3>Gauges 1 to 4</h3>
+<p>Sport, measure, period and goal apply only to the Sport data. Only the gauges used by the layout are shown.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Choices</th>
+<th>Default (1 / 2 / 3 / 4)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data</strong></td>
+<td>Sport, Recovery, Body Battery, Steps, Intensity minutes, Floors, Heart rate, Stress</td>
+<td>Sport / Sport / Body Battery / Recovery</td>
+</tr>
+<tr>
+<td><strong>Sport</strong></td>
+<td>All sports, Running, Cycling, Walking, Hiking, Swimming, E-bike, Cross-country ski, Rowing, Inline skating, Paddleboarding, Kayaking, Snowshoeing</td>
+<td>Running / Cycling / All sports / All sports</td>
+</tr>
+<tr>
+<td><strong>Measure</strong></td>
+<td>Distance, Duration, Sessions</td>
+<td>Distance / Distance / Distance / Distance</td>
+</tr>
+<tr>
+<td><strong>Period</strong></td>
+<td>Week, Month, Year</td>
+<td>Month / Month / Month / Month</td>
+</tr>
+<tr>
+<td><strong>Goal</strong></td>
+<td>0 – 100000</td>
+<td>100 / 300 / 0 / 0</td>
+</tr>
+</tbody>
+</table>
+<h3>Coordinates</h3>
+<p>Used only when manual position is on.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Choices</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Latitude</strong></td>
+<td>-90 – 90</td>
+<td>48.8567</td>
+</tr>
+<tr>
+<td><strong>Longitude</strong></td>
+<td>-180 – 180</td>
+<td>2.3508</td>
+</tr>
+</tbody>
+</table>
+<h3>Text fields</h3>
+<p>Content of the four fields around the time.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Choices</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Top field / Bottom field / Line 1 (under minutes) / Line 2</strong></td>
+<td>Empty, Battery (%), Battery (days), Date, Moon, Next sunrise / sunset, Day length, Steps, Floors, Intensity minutes, Calories, Heart rate, Body Battery, Stress, Recovery, Notifications</td>
+<td>Battery (%) / Empty / Date / Moon</td>
+</tr>
+</tbody>
+</table>
+<h3>Status bar and battery</h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Choices</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bluetooth status</strong></td>
+<td>Yes / No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Notification count</strong></td>
+<td>Yes / No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><strong>Low battery threshold (%)</strong></td>
+<td>1 – 99</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<h3>Advanced</h3>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Choices</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Recovery gauge scale (hours)</strong></td>
+<td>6 – 168</td>
+<td>48</td>
+</tr>
+</tbody>
+</table>
+<h2 id="watches">Watches</h2>
+
+<p>Enduro™ 3 · fēnix® 6 / 6 Solar / 6 Dual Power · fēnix® 6 Pro / 6 Sapphire / 6 Pro Solar / 6 Pro Dual Power / quatix® 6 · fēnix® 6X Pro / 6X Sapphire / 6X Pro Solar / tactix® Delta Sapphire / Delta Solar / Delta Solar - Ballistics Edition / quatix® 6X / 6X Solar / 6X Dual Power · fēnix® 7 / quatix® 7 · fēnix® 7 Pro · fēnix® 7 Pro - Solar Edition (no Wi-Fi) · fēnix® 7S · fēnix® 7S Pro · fēnix® 7X / tactix® 7 / quatix® 7X Solar / Enduro™ 2 · fēnix® 7X Pro · fēnix® 7X Pro - Solar Edition (no Wi-Fi) · fēnix® 8 Solar 47mm · fēnix® 8 Solar 51mm / tactix® 8 Solar 51mm · fēnix® 9 Pro Solar 47mm · fēnix® 9 Pro Solar 51mm · Forerunner® 255 · Forerunner® 255 Music · Forerunner® 255s · Forerunner® 255s Music · Forerunner® 955 / Solar</p>
+<p>For the curious: <a href="../../en/astronomy.html">the sky, explained</a>.</p>
 </main>
-<footer><a href="../../en/data.html">Watch data</a><a href="../../en/help.html">Help</a><a href="../../en/privacy.html">Privacy</a><a href="../../en/support.html">Support</a><a href="../../en/contact.html">Contact</a><a href="../../en/credits.html">Credits</a></footer>
+<footer>Contact: <a href="mailto:jerrylab.error316@passmail.net">jerrylab.error316@passmail.net</a> · <a href="https://buymeacoffee.com/jerrylab">Buy me a coffee</a><br>Digits: Barlow typeface (SIL Open Font License). Garmin, Connect IQ and Body Battery are trademarks of Garmin Ltd.; this site is not affiliated with Garmin.</footer>
 </body>
 </html>

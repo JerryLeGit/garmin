@@ -5,42 +5,66 @@ alt: ../fr/index.html
 
 # 24h Astro
 
-**Your day's sky, at a glance.**
+Your day's sky, at a glance. [See it on Connect IQ](https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps)
 
-The ring covers the full 24 hours: midnight at the bottom, noon at the top. The sky is drawn live along it, computed for your location. The sun is where it really is, and so is the moon.
+[What you see](#what-you-see) · [Data](#data) · [Settings](#settings) · [Watches](#watches)
 
-<p class="cta"><a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">See it on Connect IQ</a></p>
+<h2 id="what-you-see">What you see</h2>
 
-<img class="hero" src="../img/heros-en.png" alt="24h Astro at golden hour">
+<img class="schema" src="../img/schema-en.png" alt="The watch face, numbered markers">
 
-## The sky
-- Sunrise, sunset, solar noon and midnight, the three twilights: marked on the ring.
-- A compass on the hour marks: where the sun rises, where it sets, where it is now (or the moon).
-- Polar day and polar night included.
+1. Midnight
+2. Noon
+3. Sunrise
+4. Sunset
+5. Full night
+6. The sun, now
+7. Moon arc
+8. Compass: sunrise direction
+9. Central bar: sun height
+10. Gauges
+11. Top field
+12. Date and moon line
+13. Bluetooth, location
+14. Notifications
 
-## The Moon
-- Its arc from rise to set, its disc at the right phase.
-- The countdown to the next full or new moon, and how much of it is lit.
+**The ring** = 24 h: midnight at the bottom, noon at the top. The coloured part runs from sunrise to sunset; its colour follows the sky of the moment (dark at night, bright blue by day). At sunrise and sunset, a glow at the end of the arc; with the sun up, a halo around it. Large dots: sunrise, sunset, solar noon and midnight. Small dots: twilights and end of golden hour.
 
-## Your data
-- Up to 4 gauges, as bars or rings: sport, Body Battery, recovery, steps, floors, intensity minutes, heart rate, stress.
-- 4 fields of your choice: date, moon, next sunrise or sunset, day length, battery, notifications and your daily data.
+**The moon**: grey arc from moonrise to moonset; disc at its phase, over the top of the ring when it is up, along the bottom otherwise.
 
-## Your way
-- 3 colour themes, 6 layouts, a central bar of your choice.
-- Automatic location or entered by hand.
-- English and French, km or miles as set on the watch.
+**The compass**: triangles on the hour marks, like a map (north at the top). White: sunrise and sunset directions. Orange: the sun now (white outline when it is down). Small triangle at the bottom: south.
 
-<div class="gallery">
-<img src="../img/theme-classique-en.png" alt="Classic theme, at dusk">
-<img src="../img/theme-soleil-en.png" alt="Sun theme, two ring gauges">
-<img src="../img/theme-azur-en.png" alt="Azure theme, battery central bar">
-</div>
+**The central bar**: height of the sun; the white line is the horizon.
 
-## Learn more
-- [Reading the face](reading-the-face.html): the ring, the moon, the compass, the short notations.
-- [Settings](settings.html)
-- [Compatible watches](watches.html)
-- [FAQ](faq.html)
-- [What's new](whats-new.html)
-- [Watch data](../../en/data.html): gauges and fields, shared by all watch faces.
+**The moon line**: `▲ 8d │ 47%` = full moon in 8 days, 47% lit; `▼` = towards new moon; `●` / `○` = full / new moon close, `+4h` = passed 4 h ago. Durations in hours under 48 h.
+
+**Status bar**: ![](../../img/icones/bluetooth.png) phone connected (dark grey: not connected) · ![](../../img/icones/position-barree.png) no known location, computed for Paris (start a GPS activity or enter a location) · ![](../../img/icones/prise.png) charging · ![](../../img/icones/notifications.png) notifications.
+
+<h2 id="data">Data</h2>
+
+| | | |
+|---|---|---|
+| ![](../../img/icones/tous-sports.png) | Sport | Distance, duration or sessions; week, month or year; goal you set. |
+| ![](../../img/icones/body-battery.png) | Body Battery | Level; white mark = today's highest. |
+| ![](../../img/icones/recuperation.png) | Recovery | Hours left; "Ok" = recovered. |
+| ![](../../img/icones/pas.png) | Steps | Towards the watch's goal. |
+| ![](../../img/icones/etages.png) | Floors | Towards the watch's goal. |
+| ![](../../img/icones/minutes-intensives.png) | Intensity minutes | Week, towards the watch's goal. |
+| ![](../../img/icones/frequence-cardiaque.png) | Heart rate | By zones; red in zone 5. |
+| ![](../../img/icones/stress.png) | Stress | 0 to 100; red from 75. |
+| ![](../../img/icones/calories.png) | Calories | Today (field only). |
+| ![](../../img/icones/batterie.png) | Battery | % or battery life; red below threshold, green while charging. |
+
+Green gauge: goal reached. Red: alert. Grey track only or "--": data unavailable. Some data depend on the watch model.
+
+<h2 id="settings">Settings</h2>
+
+In the Connect IQ or Garmin Connect app on your phone.
+
+<!-- parametres -->
+
+<h2 id="watches">Watches</h2>
+
+<!-- montres -->
+
+For the curious: [the sky, explained](../../en/astronomy.html).
