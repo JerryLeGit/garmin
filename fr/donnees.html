@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les données de la montre</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header><a class="site" href="../fr/index.html">Jerry Lab · Garmin</a><a class="lang" href="../en/data.html">English</a></header>
+<main>
+<h1>Les données de la montre</h1>
+<p>Les cadrans affichent des données lues sur la montre, en <strong>jauge</strong> (barre ou anneau) ou en <strong>champ de texte</strong>, selon le cadran et vos réglages. Elles sont affichées à titre indicatif ; certaines n'existent que sur certains modèles.</p>
+<h2>Lire une jauge</h2>
+<ul>
+<li><strong>Couleur du thème</strong> : progression normale.</li>
+<li><strong>Vert</strong> : objectif atteint (la jauge reste pleine si vous le dépassez).</li>
+<li><strong>Rouge</strong> : alerte (seuil dépassé, voir chaque donnée).</li>
+<li><strong>Piste grise seule</strong> : donnée indisponible, ou pas d'objectif réglé.</li>
+<li>Une jauge n'est jamais tout à fait vide dès qu'une valeur existe : un petit trait reste visible, même à zéro.</li>
+<li>Au-delà de 1 000, les nombres passent en milliers : « 8,2k » pour 8 240 pas.</li>
+</ul>
+<h2>Les données</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Donnée</th>
+<th>Ce qui est affiché</th>
+<th>Jauge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="" src="../img/icones/pas.png" /></td>
+<td><strong>Pas</strong></td>
+<td>Pas du jour.</td>
+<td>Vers l'objectif de pas de la montre.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/etages.png" /></td>
+<td><strong>Étages</strong></td>
+<td>Étages montés dans la journée.</td>
+<td>Vers l'objectif d'étages de la montre.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/minutes-intensives.png" /></td>
+<td><strong>Minutes intensives</strong></td>
+<td>Total de la semaine.</td>
+<td>Vers l'objectif hebdomadaire de la montre.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/calories.png" /></td>
+<td><strong>Calories</strong></td>
+<td>Calories du jour.</td>
+<td>(champ de texte seulement)</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/frequence-cardiaque.png" /></td>
+<td><strong>Fréquence cardiaque</strong></td>
+<td>Pendant une activité : la valeur en direct. Sinon : la dernière mesure valide des 10 dernières minutes.</td>
+<td>De votre FC de repos à votre FC max, découpée selon vos zones. Rouge en zone 5.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/body-battery.png" /></td>
+<td><strong>Body Battery</strong></td>
+<td>Niveau, en %.</td>
+<td>0 à 100 %. Un trait blanc marque le maximum du jour. Rouge à 5 % ou moins.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/stress.png" /></td>
+<td><strong>Stress</strong></td>
+<td>Indice de 0 à 100.</td>
+<td>En quatre paliers. Rouge à partir de 75.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/recuperation.png" /></td>
+<td><strong>Récupération</strong></td>
+<td>Heures de récupération restantes ; « Ok » quand vous êtes récupéré.</td>
+<td>Pleine et verte quand vous êtes récupéré. Échelle réglable (48 h par défaut). Rouge au-delà de l'échelle.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/tous-sports.png" /></td>
+<td><strong>Sport</strong></td>
+<td>Cumul de vos activités : distance, durée ou nombre de séances, sur la semaine, le mois ou l'année, pour un sport ou tous.</td>
+<td>Vers l'objectif que vous réglez, dans l'unité de la montre (km ou mi, heures, séances).</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/batterie.png" /></td>
+<td><strong>Batterie</strong></td>
+<td>Charge en %, ou autonomie estimée par la montre (en heures sous 48 h, en jours au-delà).</td>
+<td>Rouge sous le seuil réglé (20 % par défaut), vert pendant la charge.</td>
+</tr>
+<tr>
+<td><img alt="" src="../img/icones/notifications.png" /></td>
+<td><strong>Notifications</strong></td>
+<td>Nombre de notifications en attente.</td>
+<td>(champ de texte seulement)</td>
+</tr>
+</tbody>
+</table>
+<p>Sports disponibles pour la jauge Sport : course, vélo, vélo électrique, marche, randonnée, natation, ski de fond, aviron, roller, paddle, kayak, raquettes, ou tous les sports.</p>
+<p><img alt="Icônes des sports" src="../img/icones/sports.png" /></p>
+<h2>Quand sont-elles relues ?</h2>
+<ul>
+<li><strong>Chaque minute</strong>, et au poignet levé : pas, étages, minutes intensives, calories, Body Battery, stress, batterie, notifications.</li>
+<li><strong>Chaque seconde tant que l'écran est allumé</strong> après un geste : la fréquence cardiaque.</li>
+<li><strong>Toutes les 15 minutes</strong> : la jauge de récupération (en champ de texte : chaque minute).</li>
+<li><strong>Toutes les heures</strong>, au démarrage du cadran et au changement de jour : les cumuls Sport.</li>
+</ul>
+<h2>Bon à savoir</h2>
+<ul>
+<li><strong>Sport</strong> : les cumuls viennent de l'historique d'activités de la montre, que le cadran mémorise au fil du temps. Le jour de l'installation, il connaît les activités des 40 derniers jours ; le cumul de l'année se complète ensuite avec toutes les nouvelles activités.</li>
+<li><strong>Body Battery</strong> : le maximum du jour est suivi par le cadran. Le jour de l'installation, le pic du matin n'est connu que s'il est encore dans l'historique récent de la montre.</li>
+<li><strong>Stress et Body Battery</strong> affichent la dernière valeur valide de l'heure écoulée : la montre ne les calcule pas en continu (montre retirée, activité en cours).</li>
+<li><strong>« -- »</strong> : la donnée n'est pas encore disponible, ou votre modèle ne la fournit pas.</li>
+</ul>
+</main>
+<footer><a href="../fr/donnees.html">Les données de la montre</a><a href="../fr/aide.html">Aide</a><a href="../fr/confidentialite.html">Confidentialité</a><a href="../fr/soutenir.html">Soutenir</a><a href="../fr/contact.html">Contact</a><a href="../fr/credits.html">Crédits</a></footer>
+</body>
+</html>

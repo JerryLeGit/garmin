@@ -1,0 +1,33 @@
+@font-face { font-family: "Barlow SC"; src: url("BarlowSemiCondensed-Bold.ttf") format("truetype"); font-weight: 700; }
+:root { --bg: #0b0f1a; --panel: #141a2a; --text: #e9ebf0; --muted: #aaaaaa; --accent: #ffaa00; --link: #55aaff; --line: #2a3246; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--link); }
+header, main, footer { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; padding-top: 18px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+header .site { font: 700 20px "Barlow SC", sans-serif; color: var(--text); text-decoration: none; }
+header .lang { margin-left: auto; font-size: 15px; }
+nav.app { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 15px; width: 100%; }
+nav.app a { color: var(--muted); text-decoration: none; }
+nav.app a.on { color: var(--accent); }
+h1, h2, h3 { font-family: "Barlow SC", sans-serif; font-weight: 700; line-height: 1.2; }
+h1 { font-size: 40px; margin: 28px 0 12px; }
+h2 { font-size: 26px; margin: 34px 0 10px; color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 12px 0; display: block; overflow-x: auto; }
+th, td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+th { color: var(--muted); font-weight: 600; }
+td img { image-rendering: pixelated; vertical-align: middle; }
+code { background: var(--panel); padding: 1px 5px; border-radius: 4px; }
+img { max-width: 100%; height: auto; }
+img.hero, .gallery img, img.schema, .card img { image-rendering: pixelated; }
+img.hero { display: block; margin: 20px auto; width: 420px; }
+img.schema { display: block; margin: 16px auto; width: 600px; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 24px 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 20px 0; }
+.card { display: flex; flex-direction: column; gap: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px; color: var(--text); text-decoration: none; }
+.card strong { font: 700 24px "Barlow SC", sans-serif; }
+.card span { color: var(--muted); font-size: 15px; }
+.cta a { display: inline-block; background: var(--accent); color: #000; font-weight: 700; padding: 10px 18px; border-radius: 8px; text-decoration: none; }
+footer { margin-top: 48px; padding-top: 14px; padding-bottom: 32px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+footer a { color: var(--muted); margin-right: 14px; display: inline-block; }
+@media (max-width: 560px) { body { font-size: 16px; } h1 { font-size: 32px; } }

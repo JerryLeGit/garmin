@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lire le cadran — 24h Astro</title>
+<link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<header><a class="site" href="../../fr/index.html">Jerry Lab · Garmin</a><a class="lang" href="../en/reading-the-face.html">English</a><nav class="app"><a href="index.html">Présentation</a><a href="lire-le-cadran.html" class=on>Lire le cadran</a><a href="reglages.html">Réglages</a><a href="montres.html">Montres</a><a href="faq.html">FAQ</a><a href="nouveautes.html">Nouveautés</a></nav></header>
+<main>
+<h1>Lire le cadran</h1>
+<p><img class="schema" src="../img/schema-fr.png" alt="Le cadran avec ses repères numérotés"></p>
+<ol>
+<li><strong>Minuit</strong>, en bas de l'anneau.</li>
+<li><strong>Midi</strong>, en haut.</li>
+<li><strong>Lever du soleil.</strong></li>
+<li><strong>Coucher du soleil.</strong></li>
+<li><strong>Nuit noire</strong> : fin du crépuscule astronomique.</li>
+<li><strong>Le soleil, maintenant.</strong></li>
+<li><strong>L'arc de la lune</strong>, de son lever à son coucher.</li>
+<li><strong>Boussole</strong> : direction du lever du soleil.</li>
+<li><strong>Barre centrale</strong> : hauteur du soleil.</li>
+<li><strong>Jauges</strong> : vos données.</li>
+<li><strong>Champ du haut</strong> : la batterie par défaut.</li>
+<li><strong>Date et ligne lune.</strong></li>
+<li><strong>Barre d'état</strong> : Bluetooth, position.</li>
+<li><strong>Notifications.</strong></li>
+</ol>
+<h2>L'anneau des 24 heures</h2>
+<p>Un tour complet = 24 heures : minuit en bas, 6 h à gauche, midi en haut, 18 h à droite. Traits aux heures paires (plus longs à 0, 6, 12 et 18 h), points aux heures impaires.</p>
+<p><strong>L'arc de jour.</strong> La partie colorée de l'anneau va du lever au coucher du soleil. Sa couleur suit le ciel du moment : bleu très sombre la nuit, bleu moyen tôt le matin et en fin de journée, bleu vif en plein jour.</p>
+<ul>
+<li>Soleil <strong>juste sous l'horizon</strong> : le bout de l'arc, de son côté, s'allume — violet au crépuscule nautique, orange à l'heure bleue.</li>
+<li>Soleil <strong>levé</strong> : un halo l'entoure, doré près de l'horizon (heure dorée), pâle plus haut. Plus le soleil est bas, plus le halo est large.</li>
+<li>Réglage « Dégradés du ciel » : <strong>tramés</strong> (grain fin, par défaut) ou <strong>paliers nets</strong>.</li>
+</ul>
+<p><strong>Les points.</strong> Gros points blancs : lever, coucher, midi solaire (soleil au plus haut) et minuit solaire (au plus bas). Petits points : crépuscules astronomique (−18°), nautique (−12°), civil (−6°), et fin de l'heure dorée (+6°).</p>
+<p><strong>Le soleil.</strong> Disque orangé à cœur blanc quand il est levé, cercle blanc quand il est couché. Il avance avec l'heure.</p>
+<p><strong>Au-delà du cercle polaire.</strong> Jour polaire : l'anneau est coloré sur tout le tour. Nuit polaire : pas d'arc de jour, seulement les points des crépuscules s'il y en a.</p>
+<h2>La Lune</h2>
+<ul>
+<li><strong>L'arc gris</strong>, juste à l'intérieur de l'anneau, va de son lever à son coucher. Il passe au suivant quand la lune est au plus bas.</li>
+<li><strong>Le disque</strong> montre sa phase : nouvelle, croissant, quartier, gibbeuse, pleine. Gris clair quand elle est levée, sombre quand elle est couchée.</li>
+<li>Le disque passe <strong>par le haut</strong> de l'anneau quand la lune est levée, <strong>par le bas</strong> quand elle est couchée : de l'horizon du lever à celui du coucher.</li>
+<li>Réglage « Lune sur le cadran 24 h » : masque l'arc et le disque (la ligne lune reste).</li>
+</ul>
+<h2>La boussole</h2>
+<p>Les triangles posés sur les graduations sont des <strong>directions</strong>, comme sur une carte : nord en haut, est à droite, sud en bas, ouest à gauche. Ce n'est pas une boussole magnétique : le cadran ne connaît pas l'orientation de votre poignet.</p>
+<ul>
+<li>Petit triangle blanc en bas : le <strong>sud</strong>, fixe.</li>
+<li>Triangles blancs : d'où le soleil <strong>se lève</strong> et où il <strong>se couche</strong> aujourd'hui.</li>
+<li>Où est le soleil <strong>maintenant</strong> : triangle orange plein s'il est levé, contour blanc s'il est couché.</li>
+<li>Réglage « Boussole sur les graduations » : soleil (par défaut), lune (triangles gris) ou aucune.</li>
+</ul>
+<h2>La barre centrale</h2>
+<p>Par défaut, la <strong>hauteur du soleil</strong> : le trait blanc est l'horizon, les graduations sont tous les 10°, le petit soleil est à sa hauteur, le remplissage prend la couleur du ciel. Autres styles : soleil et lune, lune seule, batterie, ou barre simple.</p>
+<h2>L'heure et les champs</h2>
+<p>Les grands chiffres donnent l'heure en 24 h. Quatre champs se règlent : en haut, en bas, et deux lignes sous les minutes (par défaut : batterie en haut, date et lune sous les minutes).</p>
+<p><strong>La ligne lune :</strong></p>
+<table>
+<thead>
+<tr>
+<th>Affichage</th>
+<th>Signification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>▲ 8j │ 47%</code></td>
+<td>Lune croissante : pleine lune dans 8 jours ; 47 % du disque éclairé.</td>
+</tr>
+<tr>
+<td><code>▼ 5j │ 60%</code></td>
+<td>Lune décroissante : nouvelle lune dans 5 jours.</td>
+</tr>
+<tr>
+<td><code>● 5h</code></td>
+<td>Pleine lune dans 5 heures (le disque est déjà plein).</td>
+</tr>
+<tr>
+<td><code>● +4h │ 100%</code></td>
+<td>Pleine lune passée depuis 4 heures.</td>
+</tr>
+<tr>
+<td><code>○ +1j</code></td>
+<td>Nouvelle lune passée depuis 1 jour.</td>
+</tr>
+<tr>
+<td><code>47h</code>, <code>2j</code></td>
+<td>Durées : en heures sous 48 h, en jours au-delà.</td>
+</tr>
+</tbody>
+</table>
+<p>Sur les petits écrans, le séparateur « │ » disparaît quand la place manque.</p>
+<p><strong>Autres champs propres au cadran :</strong> prochain lever ou coucher du soleil (<code>7:12</code>), durée du jour (<code>12h26</code>). Les données de la montre : voir <a href="../../fr/donnees.html">Les données de la montre</a>.</p>
+<h2>La barre d'état</h2>
+<table>
+<thead>
+<tr>
+<th>Icône</th>
+<th>Signification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="" src="../../img/icones/bluetooth.png" /> gris clair</td>
+<td>Téléphone connecté.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/bluetooth-sombre.png" /> gris foncé</td>
+<td>Bluetooth actif, téléphone non connecté.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/position-barree.png" /></td>
+<td>Aucune position connue : le cadran calcule pour Paris.</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/prise.png" /></td>
+<td>Montre en charge (seule, si la batterie n'est pas déjà affichée ailleurs).</td>
+</tr>
+<tr>
+<td><img alt="" src="../../img/icones/notifications.png" /> et un nombre</td>
+<td>Notifications en attente (en bas de la colonne de droite).</td>
+</tr>
+</tbody>
+</table>
+<h2>Les jauges</h2>
+<p>Six dispositions : 4 barres, 3 barres, 1 anneau et 2 barres, 2 barres, 2 anneaux, ou aucune. Ce que montre chaque donnée : <a href="../../fr/donnees.html">Les données de la montre</a>.</p>
+<h2>Les thèmes</h2>
+<p><strong>Classique</strong> (blanc), <strong>Soleil</strong> (orangé), <strong>Azur</strong> (bleu) : ils changent la couleur de l'heure, des jauges et du point des heures.</p>
+</main>
+<footer><a href="../../fr/donnees.html">Les données de la montre</a><a href="../../fr/aide.html">Aide</a><a href="../../fr/confidentialite.html">Confidentialité</a><a href="../../fr/soutenir.html">Soutenir</a><a href="../../fr/contact.html">Contact</a><a href="../../fr/credits.html">Crédits</a></footer>
+</body>
+</html>
