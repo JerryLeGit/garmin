@@ -11,10 +11,10 @@
 <main>
 <h1>24h Astro</h1>
 <p>Le ciel de votre journée, d'un coup d'œil. <a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">Voir sur Connect IQ</a></p>
-<p><a href="#ce-quon-voit">Ce qu'on voit</a> · <a href="#donnees">Données</a> · <a href="#parametres">Paramètres</a> · <a href="#montres">Montres</a></p>
-<h2 id="ce-quon-voit">Ce qu'on voit</h2>
+<p><a href="#anneau">L'anneau</a> · <a href="#centre">Le centre</a> · <a href="#parametres">Paramètres</a> · <a href="#montres">Montres</a></p>
+<h2 id="anneau">L'anneau</h2>
 
-<p><img class="schema" src="../img/schema-fr.png" alt="Le cadran, repères numérotés"></p>
+<p><img class="schema" src="../img/schema-anneau-fr.png" alt=""></p>
 <ol>
 <li>Minuit</li>
 <li>Midi</li>
@@ -24,20 +24,33 @@
 <li>Le soleil, maintenant</li>
 <li>Arc de la lune</li>
 <li>Boussole : direction du lever</li>
-<li>Barre centrale : hauteur du soleil</li>
+</ol>
+<p>Un tour = 24 h. La partie colorée va du lever au coucher ; sa couleur suit le ciel du moment. Gros points : lever, coucher, midi et minuit solaires. Petits points : crépuscules et fin de l'heure dorée.</p>
+<div class="gallery"><figure><img src="../img/cadrans/fr/01-aube.png" alt="Aube"><figcaption>Aube</figcaption></figure><figure><img src="../img/cadrans/fr/02-heure-doree.png" alt="Heure dorée"><figcaption>Heure dorée</figcaption></figure><figure><img src="../img/cadrans/fr/04-midi.png" alt="Midi"><figcaption>Midi</figcaption></figure><figure><img src="../img/cadrans/fr/06-crepuscule.png" alt="Crépuscule"><figcaption>Crépuscule</figcaption></figure><figure><img src="../img/cadrans/fr/07-nuit.png" alt="Nuit"><figcaption>Nuit</figcaption></figure><figure><img src="../img/cadrans/fr/13-jour-polaire.png" alt="Jour polaire"><figcaption>Jour polaire</figcaption></figure><figure><img src="../img/cadrans/fr/14-nuit-polaire.png" alt="Nuit polaire"><figcaption>Nuit polaire</figcaption></figure><figure><img src="../img/cadrans/fr/15-hemisphere-sud.png" alt="Hémisphère sud"><figcaption>Hémisphère sud</figcaption></figure></div>
+
+<h3>La lune</h3>
+<p>Arc gris de son lever à son coucher ; disque à sa phase, en haut de l'anneau quand elle est levée, en bas sinon.</p>
+<div class="gallery"><figure><img src="../img/cadrans/fr/10-croissant.png" alt="Croissant"><figcaption>Croissant</figcaption></figure><figure><img src="../img/cadrans/fr/11-premier-quartier.png" alt="Premier quartier"><figcaption>Premier quartier</figcaption></figure><figure><img src="../img/cadrans/fr/08-pleine-lune.png" alt="Pleine lune"><figcaption>Pleine lune</figcaption></figure></div>
+
+<h3>La boussole</h3>
+<p>Triangles sur les graduations, comme une carte (nord en haut) : directions du lever et du coucher, position actuelle de l'astre, sud en bas.</p>
+<div class="gallery"><figure><img src="../img/cadrans/fr/04-midi.png" alt="Soleil"><figcaption>Soleil</figcaption></figure><figure><img src="../img/cadrans/fr/25-boussole-lune.png" alt="Lune"><figcaption>Lune</figcaption></figure></div>
+
+<h2 id="centre">Le centre</h2>
+
+<p><img class="schema" src="../img/schema-centre-fr.png" alt=""></p>
+<ol>
 <li>Jauges</li>
+<li>Barre centrale</li>
+<li>Heure</li>
 <li>Champ du haut</li>
-<li>Date et ligne lune</li>
+<li>Lignes sous les minutes</li>
+<li>Champ du bas (vide par défaut)</li>
 <li>Bluetooth, position</li>
 <li>Notifications</li>
 </ol>
-<p><strong>L'anneau</strong> = 24 h : minuit en bas, midi en haut. La partie colorée va du lever au coucher ; sa couleur suit le ciel du moment (sombre la nuit, bleu vif le jour). Au lever et au coucher, lueur au bout de l'arc ; soleil levé, halo autour de lui. Gros points : lever, coucher, midi et minuit solaires. Petits points : crépuscules et fin de l'heure dorée.</p>
-<p><strong>La lune</strong> : arc gris de son lever à son coucher ; disque à sa phase, par le haut de l'anneau quand elle est levée, par le bas sinon.</p>
-<p><strong>La boussole</strong> : triangles sur les graduations, comme une carte (nord en haut). Blancs : directions du lever et du coucher. Orange : le soleil maintenant (contour blanc s'il est couché). Petit triangle en bas : le sud.</p>
-<p><strong>La barre centrale</strong> : hauteur du soleil ; le trait blanc est l'horizon.</p>
-<p><strong>La ligne lune</strong> : <code>▲ 8j │ 47%</code> = pleine lune dans 8 jours, 47 % éclairée ; <code>▼</code> = vers la nouvelle lune ; <code>●</code> / <code>○</code> = pleine / nouvelle lune proche, <code>+4h</code> = passée depuis 4 h. Durées en heures sous 48 h.</p>
-<p><strong>Barre d'état</strong> : <img alt="" src="../../img/icones/bluetooth.png" /> téléphone connecté (gris foncé : non connecté) · <img alt="" src="../../img/icones/position-barree.png" /> aucune position connue, calcul pour Paris (lancer une activité GPS ou saisir une position) · <img alt="" src="../../img/icones/prise.png" /> en charge · <img alt="" src="../../img/icones/notifications.png" /> notifications.</p>
-<h2 id="donnees">Données</h2>
+<h3>Les jauges</h3>
+<div class="gallery"><figure><img src="../img/cadrans/fr/04-midi.png" alt="4 barres"><figcaption>4 barres</figcaption></figure><figure><img src="../img/cadrans/fr/18-trois-barres.png" alt="3 barres"><figcaption>3 barres</figcaption></figure><figure><img src="../img/cadrans/fr/26-champs-soleil.png" alt="2 barres"><figcaption>2 barres</figcaption></figure><figure><img src="../img/cadrans/fr/19-anneau-barres.png" alt="1 anneau + 2 barres"><figcaption>1 anneau + 2 barres</figcaption></figure><figure><img src="../img/cadrans/fr/20-deux-anneaux.png" alt="2 anneaux"><figcaption>2 anneaux</figcaption></figure><figure><img src="../img/cadrans/fr/21-sans-jauge.png" alt="Aucune"><figcaption>Aucune</figcaption></figure></div>
 
 <table>
 <thead>
@@ -51,12 +64,12 @@
 <tr>
 <td><img alt="" src="../../img/icones/tous-sports.png" /></td>
 <td>Sport</td>
-<td>Cumul distance, durée ou séances ; semaine, mois ou année ; objectif réglable.</td>
+<td>Distance, durée ou séances ; semaine, mois ou année ; objectif réglable.</td>
 </tr>
 <tr>
 <td><img alt="" src="../../img/icones/body-battery.png" /></td>
 <td>Body Battery</td>
-<td>Niveau ; trait blanc = maximum du jour.</td>
+<td>Trait blanc = maximum du jour.</td>
 </tr>
 <tr>
 <td><img alt="" src="../../img/icones/recuperation.png" /></td>
@@ -88,19 +101,22 @@
 <td>Stress</td>
 <td>0 à 100 ; rouge dès 75.</td>
 </tr>
-<tr>
-<td><img alt="" src="../../img/icones/calories.png" /></td>
-<td>Calories</td>
-<td>Du jour (champ seulement).</td>
-</tr>
-<tr>
-<td><img alt="" src="../../img/icones/batterie.png" /></td>
-<td>Batterie</td>
-<td>% ou autonomie ; rouge sous le seuil, vert en charge.</td>
-</tr>
 </tbody>
 </table>
-<p>Jauge verte : objectif atteint. Rouge : alerte. Piste grise seule ou « -- » : donnée indisponible. Certaines données dépendent du modèle.</p>
+<p>Verte : objectif atteint. Rouge : alerte. Piste grise seule ou « -- » : donnée indisponible (selon le modèle).</p>
+<h3>La barre centrale</h3>
+<div class="gallery"><figure><img src="../img/cadrans/fr/04-midi.png" alt="Hauteur du soleil"><figcaption>Hauteur du soleil</figcaption></figure><figure><img src="../img/cadrans/fr/12-lune-hiver.png" alt="Soleil et lune"><figcaption>Soleil et lune</figcaption></figure><figure><img src="../img/cadrans/fr/22-separateur-lune.png" alt="Lune"><figcaption>Lune</figcaption></figure><figure><img src="../img/cadrans/fr/23-separateur-batterie.png" alt="Batterie"><figcaption>Batterie</figcaption></figure><figure><img src="../img/cadrans/fr/24-separateur-simple.png" alt="Simple"><figcaption>Simple</figcaption></figure></div>
+
+<p>Trait blanc : l'horizon.</p>
+<h3>Les champs</h3>
+<div class="gallery"><figure><img src="../img/cadrans/fr/04-midi.png" alt="Batterie, date, lune"><figcaption>Batterie, date, lune</figcaption></figure><figure><img src="../img/cadrans/fr/26-champs-soleil.png" alt="Lever, durée du jour, pas…"><figcaption>Lever, durée du jour, pas…</figcaption></figure><figure><img src="../img/cadrans/fr/27-champs-corps.png" alt="Autonomie, calories, Body Battery…"><figcaption>Autonomie, calories, Body Battery…</figcaption></figure></div>
+
+<p>Ligne lune : <code>▲ 8j │ 47%</code> = pleine lune dans 8 jours, 47 % éclairée ; <code>▼</code> vers la nouvelle lune ; <code>●</code> / <code>○</code> pleine / nouvelle lune proche ; <code>+4h</code> = passée depuis 4 h.</p>
+<h3>La barre d'état</h3>
+<p><img alt="" src="../../img/icones/bluetooth.png" /> téléphone connecté (gris foncé : non connecté) · <img alt="" src="../../img/icones/position-barree.png" /> aucune position : calcul pour Paris · <img alt="" src="../../img/icones/prise.png" /> en charge · <img alt="" src="../../img/icones/notifications.png" /> notifications</p>
+<h3>Thèmes et ciel</h3>
+<div class="gallery"><figure><img src="../img/cadrans/fr/04-midi.png" alt="Classique"><figcaption>Classique</figcaption></figure><figure><img src="../img/cadrans/fr/16-theme-soleil.png" alt="Soleil"><figcaption>Soleil</figcaption></figure><figure><img src="../img/cadrans/fr/17-theme-azur.png" alt="Azur"><figcaption>Azur</figcaption></figure><figure><img src="../img/cadrans/fr/28-ciel-paliers.png" alt="Ciel en paliers nets"><figcaption>Ciel en paliers nets</figcaption></figure></div>
+
 <h2 id="parametres">Paramètres</h2>
 
 <p>Dans l'appli Connect IQ ou Garmin Connect du téléphone.</p>

@@ -11,10 +11,10 @@
 <main>
 <h1>24h Astro</h1>
 <p>Your day's sky, at a glance. <a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">See it on Connect IQ</a></p>
-<p><a href="#what-you-see">What you see</a> · <a href="#data">Data</a> · <a href="#settings">Settings</a> · <a href="#watches">Watches</a></p>
-<h2 id="what-you-see">What you see</h2>
+<p><a href="#ring">The ring</a> · <a href="#centre">The centre</a> · <a href="#settings">Settings</a> · <a href="#watches">Watches</a></p>
+<h2 id="ring">The ring</h2>
 
-<p><img class="schema" src="../img/schema-en.png" alt="The watch face, numbered markers"></p>
+<p><img class="schema" src="../img/schema-anneau-en.png" alt=""></p>
 <ol>
 <li>Midnight</li>
 <li>Noon</li>
@@ -24,20 +24,33 @@
 <li>The sun, now</li>
 <li>Moon arc</li>
 <li>Compass: sunrise direction</li>
-<li>Central bar: sun height</li>
+</ol>
+<p>One turn = 24 h. The coloured part runs from sunrise to sunset; its colour follows the sky of the moment. Large dots: sunrise, sunset, solar noon and midnight. Small dots: twilights and end of golden hour.</p>
+<div class="gallery"><figure><img src="../img/cadrans/en/01-aube.png" alt="Dawn"><figcaption>Dawn</figcaption></figure><figure><img src="../img/cadrans/en/02-heure-doree.png" alt="Golden hour"><figcaption>Golden hour</figcaption></figure><figure><img src="../img/cadrans/en/04-midi.png" alt="Midday"><figcaption>Midday</figcaption></figure><figure><img src="../img/cadrans/en/06-crepuscule.png" alt="Dusk"><figcaption>Dusk</figcaption></figure><figure><img src="../img/cadrans/en/07-nuit.png" alt="Night"><figcaption>Night</figcaption></figure><figure><img src="../img/cadrans/en/13-jour-polaire.png" alt="Polar day"><figcaption>Polar day</figcaption></figure><figure><img src="../img/cadrans/en/14-nuit-polaire.png" alt="Polar night"><figcaption>Polar night</figcaption></figure><figure><img src="../img/cadrans/en/15-hemisphere-sud.png" alt="Southern hemisphere"><figcaption>Southern hemisphere</figcaption></figure></div>
+
+<h3>The moon</h3>
+<p>Grey arc from moonrise to moonset; disc at its phase, at the top of the ring when it is up, at the bottom otherwise.</p>
+<div class="gallery"><figure><img src="../img/cadrans/en/10-croissant.png" alt="Crescent"><figcaption>Crescent</figcaption></figure><figure><img src="../img/cadrans/en/11-premier-quartier.png" alt="First quarter"><figcaption>First quarter</figcaption></figure><figure><img src="../img/cadrans/en/08-pleine-lune.png" alt="Full moon"><figcaption>Full moon</figcaption></figure></div>
+
+<h3>The compass</h3>
+<p>Triangles on the hour marks, like a map (north at the top): rise and set directions, where the body is now, south at the bottom.</p>
+<div class="gallery"><figure><img src="../img/cadrans/en/04-midi.png" alt="Sun"><figcaption>Sun</figcaption></figure><figure><img src="../img/cadrans/en/25-boussole-lune.png" alt="Moon"><figcaption>Moon</figcaption></figure></div>
+
+<h2 id="centre">The centre</h2>
+
+<p><img class="schema" src="../img/schema-centre-en.png" alt=""></p>
+<ol>
 <li>Gauges</li>
+<li>Central bar</li>
+<li>Time</li>
 <li>Top field</li>
-<li>Date and moon line</li>
+<li>Lines under the minutes</li>
+<li>Bottom field (empty by default)</li>
 <li>Bluetooth, location</li>
 <li>Notifications</li>
 </ol>
-<p><strong>The ring</strong> = 24 h: midnight at the bottom, noon at the top. The coloured part runs from sunrise to sunset; its colour follows the sky of the moment (dark at night, bright blue by day). At sunrise and sunset, a glow at the end of the arc; with the sun up, a halo around it. Large dots: sunrise, sunset, solar noon and midnight. Small dots: twilights and end of golden hour.</p>
-<p><strong>The moon</strong>: grey arc from moonrise to moonset; disc at its phase, over the top of the ring when it is up, along the bottom otherwise.</p>
-<p><strong>The compass</strong>: triangles on the hour marks, like a map (north at the top). White: sunrise and sunset directions. Orange: the sun now (white outline when it is down). Small triangle at the bottom: south.</p>
-<p><strong>The central bar</strong>: height of the sun; the white line is the horizon.</p>
-<p><strong>The moon line</strong>: <code>▲ 8d │ 47%</code> = full moon in 8 days, 47% lit; <code>▼</code> = towards new moon; <code>●</code> / <code>○</code> = full / new moon close, <code>+4h</code> = passed 4 h ago. Durations in hours under 48 h.</p>
-<p><strong>Status bar</strong>: <img alt="" src="../../img/icones/bluetooth.png" /> phone connected (dark grey: not connected) · <img alt="" src="../../img/icones/position-barree.png" /> no known location, computed for Paris (start a GPS activity or enter a location) · <img alt="" src="../../img/icones/prise.png" /> charging · <img alt="" src="../../img/icones/notifications.png" /> notifications.</p>
-<h2 id="data">Data</h2>
+<h3>Gauges</h3>
+<div class="gallery"><figure><img src="../img/cadrans/en/04-midi.png" alt="4 bars"><figcaption>4 bars</figcaption></figure><figure><img src="../img/cadrans/en/18-trois-barres.png" alt="3 bars"><figcaption>3 bars</figcaption></figure><figure><img src="../img/cadrans/en/26-champs-soleil.png" alt="2 bars"><figcaption>2 bars</figcaption></figure><figure><img src="../img/cadrans/en/19-anneau-barres.png" alt="1 ring + 2 bars"><figcaption>1 ring + 2 bars</figcaption></figure><figure><img src="../img/cadrans/en/20-deux-anneaux.png" alt="2 rings"><figcaption>2 rings</figcaption></figure><figure><img src="../img/cadrans/en/21-sans-jauge.png" alt="None"><figcaption>None</figcaption></figure></div>
 
 <table>
 <thead>
@@ -56,7 +69,7 @@
 <tr>
 <td><img alt="" src="../../img/icones/body-battery.png" /></td>
 <td>Body Battery</td>
-<td>Level; white mark = today's highest.</td>
+<td>White mark = today's highest.</td>
 </tr>
 <tr>
 <td><img alt="" src="../../img/icones/recuperation.png" /></td>
@@ -88,19 +101,22 @@
 <td>Stress</td>
 <td>0 to 100; red from 75.</td>
 </tr>
-<tr>
-<td><img alt="" src="../../img/icones/calories.png" /></td>
-<td>Calories</td>
-<td>Today (field only).</td>
-</tr>
-<tr>
-<td><img alt="" src="../../img/icones/batterie.png" /></td>
-<td>Battery</td>
-<td>% or battery life; red below threshold, green while charging.</td>
-</tr>
 </tbody>
 </table>
-<p>Green gauge: goal reached. Red: alert. Grey track only or "--": data unavailable. Some data depend on the watch model.</p>
+<p>Green: goal reached. Red: alert. Grey track only or "--": data unavailable (depends on the model).</p>
+<h3>Central bar</h3>
+<div class="gallery"><figure><img src="../img/cadrans/en/04-midi.png" alt="Sun height"><figcaption>Sun height</figcaption></figure><figure><img src="../img/cadrans/en/12-lune-hiver.png" alt="Sun and moon"><figcaption>Sun and moon</figcaption></figure><figure><img src="../img/cadrans/en/22-separateur-lune.png" alt="Moon"><figcaption>Moon</figcaption></figure><figure><img src="../img/cadrans/en/23-separateur-batterie.png" alt="Battery"><figcaption>Battery</figcaption></figure><figure><img src="../img/cadrans/en/24-separateur-simple.png" alt="Plain"><figcaption>Plain</figcaption></figure></div>
+
+<p>White line: the horizon.</p>
+<h3>Fields</h3>
+<div class="gallery"><figure><img src="../img/cadrans/en/04-midi.png" alt="Battery, date, moon"><figcaption>Battery, date, moon</figcaption></figure><figure><img src="../img/cadrans/en/26-champs-soleil.png" alt="Sunrise, day length, steps…"><figcaption>Sunrise, day length, steps…</figcaption></figure><figure><img src="../img/cadrans/en/27-champs-corps.png" alt="Battery life, calories, Body Battery…"><figcaption>Battery life, calories, Body Battery…</figcaption></figure></div>
+
+<p>Moon line: <code>▲ 8d │ 47%</code> = full moon in 8 days, 47% lit; <code>▼</code> towards new moon; <code>●</code> / <code>○</code> full / new moon close; <code>+4h</code> = passed 4 h ago.</p>
+<h3>Status bar</h3>
+<p><img alt="" src="../../img/icones/bluetooth.png" /> phone connected (dark grey: not connected) · <img alt="" src="../../img/icones/position-barree.png" /> no location: computed for Paris · <img alt="" src="../../img/icones/prise.png" /> charging · <img alt="" src="../../img/icones/notifications.png" /> notifications</p>
+<h3>Themes and sky</h3>
+<div class="gallery"><figure><img src="../img/cadrans/en/04-midi.png" alt="Classic"><figcaption>Classic</figcaption></figure><figure><img src="../img/cadrans/en/16-theme-soleil.png" alt="Sun"><figcaption>Sun</figcaption></figure><figure><img src="../img/cadrans/en/17-theme-azur.png" alt="Azure"><figcaption>Azure</figcaption></figure><figure><img src="../img/cadrans/en/28-ciel-paliers.png" alt="Flat-step sky"><figcaption>Flat-step sky</figcaption></figure></div>
+
 <h2 id="settings">Settings</h2>
 
 <p>In the Connect IQ or Garmin Connect app on your phone.</p>

@@ -7,11 +7,11 @@ alt: ../fr/index.html
 
 Your day's sky, at a glance. [See it on Connect IQ](https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps)
 
-[What you see](#what-you-see) · [Data](#data) · [Settings](#settings) · [Watches](#watches)
+[The ring](#ring) · [The centre](#centre) · [Settings](#settings) · [Watches](#watches)
 
-<h2 id="what-you-see">What you see</h2>
+<h2 id="ring">The ring</h2>
 
-<img class="schema" src="../img/schema-en.png" alt="The watch face, numbered markers">
+<!-- schema:anneau -->
 
 1. Midnight
 2. Noon
@@ -21,41 +21,72 @@ Your day's sky, at a glance. [See it on Connect IQ](https://apps-developer.garmi
 6. The sun, now
 7. Moon arc
 8. Compass: sunrise direction
-9. Central bar: sun height
-10. Gauges
-11. Top field
-12. Date and moon line
-13. Bluetooth, location
-14. Notifications
 
-**The ring** = 24 h: midnight at the bottom, noon at the top. The coloured part runs from sunrise to sunset; its colour follows the sky of the moment (dark at night, bright blue by day). At sunrise and sunset, a glow at the end of the arc; with the sun up, a halo around it. Large dots: sunrise, sunset, solar noon and midnight. Small dots: twilights and end of golden hour.
+One turn = 24 h. The coloured part runs from sunrise to sunset; its colour follows the sky of the moment. Large dots: sunrise, sunset, solar noon and midnight. Small dots: twilights and end of golden hour.
 
-**The moon**: grey arc from moonrise to moonset; disc at its phase, over the top of the ring when it is up, along the bottom otherwise.
+<!-- galerie: 01-aube|Dawn; 02-heure-doree|Golden hour; 04-midi|Midday; 06-crepuscule|Dusk; 07-nuit|Night; 13-jour-polaire|Polar day; 14-nuit-polaire|Polar night; 15-hemisphere-sud|Southern hemisphere -->
 
-**The compass**: triangles on the hour marks, like a map (north at the top). White: sunrise and sunset directions. Orange: the sun now (white outline when it is down). Small triangle at the bottom: south.
+### The moon
 
-**The central bar**: height of the sun; the white line is the horizon.
+Grey arc from moonrise to moonset; disc at its phase, at the top of the ring when it is up, at the bottom otherwise.
 
-**The moon line**: `▲ 8d │ 47%` = full moon in 8 days, 47% lit; `▼` = towards new moon; `●` / `○` = full / new moon close, `+4h` = passed 4 h ago. Durations in hours under 48 h.
+<!-- galerie: 10-croissant|Crescent; 11-premier-quartier|First quarter; 08-pleine-lune|Full moon -->
 
-**Status bar**: ![](../../img/icones/bluetooth.png) phone connected (dark grey: not connected) · ![](../../img/icones/position-barree.png) no known location, computed for Paris (start a GPS activity or enter a location) · ![](../../img/icones/prise.png) charging · ![](../../img/icones/notifications.png) notifications.
+### The compass
 
-<h2 id="data">Data</h2>
+Triangles on the hour marks, like a map (north at the top): rise and set directions, where the body is now, south at the bottom.
+
+<!-- galerie: 04-midi|Sun; 25-boussole-lune|Moon -->
+
+<h2 id="centre">The centre</h2>
+
+<!-- schema:centre -->
+
+1. Gauges
+2. Central bar
+3. Time
+4. Top field
+5. Lines under the minutes
+6. Bottom field (empty by default)
+7. Bluetooth, location
+8. Notifications
+
+### Gauges
+
+<!-- galerie: 04-midi|4 bars; 18-trois-barres|3 bars; 26-champs-soleil|2 bars; 19-anneau-barres|1 ring + 2 bars; 20-deux-anneaux|2 rings; 21-sans-jauge|None -->
 
 | | | |
 |---|---|---|
 | ![](../../img/icones/tous-sports.png) | Sport | Distance, duration or sessions; week, month or year; goal you set. |
-| ![](../../img/icones/body-battery.png) | Body Battery | Level; white mark = today's highest. |
+| ![](../../img/icones/body-battery.png) | Body Battery | White mark = today's highest. |
 | ![](../../img/icones/recuperation.png) | Recovery | Hours left; "Ok" = recovered. |
 | ![](../../img/icones/pas.png) | Steps | Towards the watch's goal. |
 | ![](../../img/icones/etages.png) | Floors | Towards the watch's goal. |
 | ![](../../img/icones/minutes-intensives.png) | Intensity minutes | Week, towards the watch's goal. |
 | ![](../../img/icones/frequence-cardiaque.png) | Heart rate | By zones; red in zone 5. |
 | ![](../../img/icones/stress.png) | Stress | 0 to 100; red from 75. |
-| ![](../../img/icones/calories.png) | Calories | Today (field only). |
-| ![](../../img/icones/batterie.png) | Battery | % or battery life; red below threshold, green while charging. |
 
-Green gauge: goal reached. Red: alert. Grey track only or "--": data unavailable. Some data depend on the watch model.
+Green: goal reached. Red: alert. Grey track only or "--": data unavailable (depends on the model).
+
+### Central bar
+
+<!-- galerie: 04-midi|Sun height; 12-lune-hiver|Sun and moon; 22-separateur-lune|Moon; 23-separateur-batterie|Battery; 24-separateur-simple|Plain -->
+
+White line: the horizon.
+
+### Fields
+
+<!-- galerie: 04-midi|Battery, date, moon; 26-champs-soleil|Sunrise, day length, steps…; 27-champs-corps|Battery life, calories, Body Battery… -->
+
+Moon line: `▲ 8d │ 47%` = full moon in 8 days, 47% lit; `▼` towards new moon; `●` / `○` full / new moon close; `+4h` = passed 4 h ago.
+
+### Status bar
+
+![](../../img/icones/bluetooth.png) phone connected (dark grey: not connected) · ![](../../img/icones/position-barree.png) no location: computed for Paris · ![](../../img/icones/prise.png) charging · ![](../../img/icones/notifications.png) notifications
+
+### Themes and sky
+
+<!-- galerie: 04-midi|Classic; 16-theme-soleil|Sun; 17-theme-azur|Azure; 28-ciel-paliers|Flat-step sky -->
 
 <h2 id="settings">Settings</h2>
 
