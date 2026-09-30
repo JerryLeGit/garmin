@@ -9,7 +9,7 @@ alt: ../fr/index.html
 
 The ring covers the full 24 hours: midnight at the bottom, noon at the top. The sky is drawn live along it, computed for your location. The sun is where it really is, and so is the moon.
 
-<p class="cta"><a href="[LIEN_STORE]">Get it on Connect IQ</a></p>
+<p class="cta"><a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">See it on Connect IQ</a></p>
 
 <img class="hero" src="../img/heros-en.png" alt="24h Astro at golden hour">
 

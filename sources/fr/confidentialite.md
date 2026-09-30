@@ -13,4 +13,4 @@ Les autorisations demandées à l'installation servent seulement à l'affichage 
 
 Ce site est hébergé par GitHub Pages. Il n'utilise ni cookie ni mesure d'audience.
 
-Contact : [EMAIL_SUPPORT]
+Contact : [jerrylab.error316@passmail.net](mailto:jerrylab.error316@passmail.net)

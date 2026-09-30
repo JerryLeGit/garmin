@@ -5,6 +5,6 @@ alt: ../fr/contact.html
 
 # Contact
 
-A question, a bug, an idea: **[EMAIL_SUPPORT]**
+A question, a bug, an idea: **[jerrylab.error316@passmail.net](mailto:jerrylab.error316@passmail.net)**
 
 If you can, mention the watch face, your watch model and, for a display issue, a photo of the screen.

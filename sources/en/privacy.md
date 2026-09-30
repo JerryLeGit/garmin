@@ -13,4 +13,4 @@ The permissions asked at install time are only used for display: activity histor
 
 This site is hosted by GitHub Pages. It uses no cookies and no analytics.
 
-Contact: [EMAIL_SUPPORT]
+Contact: [jerrylab.error316@passmail.net](mailto:jerrylab.error316@passmail.net)

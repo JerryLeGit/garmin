@@ -9,7 +9,7 @@ alt: ../en/index.html
 
 L'anneau fait le tour des 24 heures : minuit en bas, midi en haut. Le ciel s'y dessine en direct, calculé pour votre position. Le soleil est à sa vraie place, la lune aussi.
 
-<p class="cta"><a href="[LIEN_STORE]">Installer depuis Connect IQ</a></p>
+<p class="cta"><a href="https://apps-developer.garmin.com/fr-FR/developer/adbe5762-c69c-4d03-adae-6dbf6f6a233d/apps">Voir sur Connect IQ</a></p>
 
 <img class="hero" src="../img/heros-fr.png" alt="24h Astro à l'heure dorée">
 
